@@ -274,7 +274,7 @@ b, strong {
 
 .color-mode-icon {
   position: relative;
-  right: 6px;
+  right: 10px;
 }
 .color-mode-icon:after {
   font-family: 'unicons';
