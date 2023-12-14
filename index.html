@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <canvas id="canvas"></canvas>
+<svg id="blot" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+    <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="joint" />
+        </filter>
+    </defs>
+</svg>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
     <meta name="description" content="">
@@ -15,15 +24,6 @@
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
-    <canvas id="canvas"></canvas>
-<svg id="blot" xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <defs>
-    <filter id="goo">
-        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
-        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="joint" />
-        </filter>
-    </defs>
-</svg>
   </head>
   <body>
 
