@@ -5,37 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Unknown Destinies </title>
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&amp;family=Roboto:wght@300;400&amp;display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <section class="section">
-      <div class="container">
-        <h2 class="h2">Section Title</h2>
-        <div class="image"><a href=""><img src="https://picsum.photos/512/300" alt=""/></a></div>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quidem, iure. Incidunt nihil <a href="">porro</a>, vel, libero quibusdam mollitia blanditiis, ab corrupti fugiat similique obcaecati quaerat accusantium eum nam aperiam! Ratione.</p>
-      </div>
-    </section>
-    <div class="follow-cursor"></div> <!-- элемент, который следует за курсором -->
-    <script src="js/main.js"></script>
-  </body>
-
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <title>Unkown Destinies</title>
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css">
   </head>
   <body>
-
+<canvas id="canvas"></canvas>
+<svg id="blot" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+    <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="joint" />
+        </filter>
+    </defs>
+</svg>
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
