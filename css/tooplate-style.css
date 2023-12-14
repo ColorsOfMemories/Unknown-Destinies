@@ -27,6 +27,20 @@ body {
   box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
 }
 
+#canvas {
+    filter: url("#goo");
+    height: 100%;
+    width: 100%;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#blot {
+    height: 0;
+    width: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
