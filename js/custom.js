@@ -125,11 +125,10 @@
     }
     animate();
 }) 
+})(jQuery);
 	 <script type="text/javascript">
 document.ondragstart = noselect;
 document .onselectstart = noselect;
 document .oncontextmenu = noselect;
 function noselect() {return false; }
 </script>
-})(jQuery);
-
