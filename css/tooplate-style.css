@@ -678,11 +678,11 @@ b, strong {
     text-decoration:none;
 }       
 <style>
-	body { 
-		-ms-user-select: none; 
-		-moz-user-select: none; 
-		-webkit-user-select: none; 
-		user-select: none; 
-	}
-</style>
+ body {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ }
+ </style>
 }
