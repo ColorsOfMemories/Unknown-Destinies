@@ -33,7 +33,7 @@
     // TOOLTIP
     $('.social-links a').tooltip();
 
-	window.addEventListener("load", function () {
+window.addEventListener("load", function () {
     const canvas = document.getElementById('canvas');
     if (typeof canvas.getContext === 'undefined') {
         return;
@@ -62,11 +62,11 @@
         var maxRadius = 24;
     }
     var colorArray = [
-        '#e9baf7',
-        '#e660d8',
-        '#db54f0',
-        '#ff78e4',
-        '#a66ef0'
+        '#def0ff',
+        '#c2e3ff',
+        '#9ed3ff',
+        '#78c2ff',
+        '#62a9e3'
     ]
     window.addEventListener('mousemove',
     function () {
@@ -124,6 +124,6 @@
         }
     }
     animate();
-}) 
+})
 })(jQuery);
 
