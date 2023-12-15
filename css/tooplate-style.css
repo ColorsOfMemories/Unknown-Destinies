@@ -676,5 +676,13 @@ b, strong {
 }    
 .container-9 a:hover {
     text-decoration:none;
-}        
+}       
+<style>
+	body { 
+		-ms-user-select: none; 
+		-moz-user-select: none; 
+		-webkit-user-select: none; 
+		user-select: none; 
+	}
+</style>
 }
