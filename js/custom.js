@@ -62,11 +62,11 @@
         var maxRadius = 24;
     }
     var colorArray = [
-        '#ebc9f5',
+        '#e9baf7',
         '#e660d8',
-        '#8554f0',
+        '#db54f0',
         '#ff78e4',
-        '#614da3'
+        '#a66ef0'
     ]
     window.addEventListener('mousemove',
     function () {
