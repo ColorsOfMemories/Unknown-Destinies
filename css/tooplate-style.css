@@ -670,49 +670,4 @@ b, strong {
         padding: 20px;
     }
 }
-/* Кнопка */
-.qrcodebtn {
-    display: inline-flex;
-    margin: 10px;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    line-height: 20px;
-    padding: 12px 30px;
-    color: #FFF;
-    font-weight: bold;
-    text-transform: uppercase; 
-    font-family: 'Roboto', Тahoma, sans-serif;
-    background: #337AB7;
-    cursor: pointer; 
-    border: 2px solid #BFE2FF;
-}
-.qrcodebtn:hover,
-.qrcodebtn:active,
-.qrcodebtn:focus {
-    color: #FFF;
-}
-.qrcodebtn:after,
-.qrcodebtn:before {
-    position: absolute;
-    height: 4px;
-    left: 50%;
-    background: #337AB7;
-    bottom: -6px;
-    content: "";
-    transition: all 280ms ease-in-out;
-    width: 0;
-}
-.qrcodebtn:before {
-    top: -6px;
-}
-.qrcodebtn:hover:after,
-.qrcodebtn:hover:before,
-.qrcodebtn:active:after,
-.qrcodebtn:active:before,
-.qrcodebtn:focus:after,
-.qrcodebtn:focus:before {
-    width: 100%;
-    left: 0;
-}
 }
