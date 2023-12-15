@@ -1,4 +1,4 @@
-(function ($) {
+ (function ($) {
 
   "use strict";
 
@@ -62,11 +62,11 @@
         var maxRadius = 24;
     }
     var colorArray = [
-        '#def0ff',
-        '#c2e3ff',
-        '#9ed3ff',
-        '#78c2ff',
-        '#62a9e3'
+        '#ebc9f5',
+        '#e660d8',
+        '#8554f0',
+        '#ff78e4',
+        '#614da3'
     ]
     window.addEventListener('mousemove',
     function () {
